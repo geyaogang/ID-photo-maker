@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 # 创建UI界面
 root = tk.Tk()
 root.title("证件照生成UI")
-root.geometry("400x500")
+root.geometry("400x300")
 
 # 定义函数：导入背景图片
 def import_background_image():
